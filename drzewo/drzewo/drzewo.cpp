@@ -173,7 +173,7 @@ void DisplayTree(Tree* t) //kg
 
 	for (i = 0; i < TD.numberOfLines; i++)
 		printf("%s", TD.screen[i]);
-	printf("\n");
+	printf("-------------\n");
 }
 
 int main()
