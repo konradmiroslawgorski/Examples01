@@ -186,6 +186,7 @@ int main()
 		t = InsertBST(t, rand() % 1000);
 
 	DisplayTree(t);
+	getchar();
 
 	return 0;
 }
